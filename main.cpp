@@ -1,6 +1,7 @@
 #include <iostream>
 #include "scene.h"
 #include "sphere.h"
+#include "square.h"
 #include <cmath>
 #include <vector>
 #include <GL/glew.h>
@@ -121,6 +122,10 @@ int main(int argc, char **argv) {
     scene.addObject(&sphere2);
     Sphere sphere3(Vector3(50, 50, 150), Vector3(-250, 100, 0),150);
     scene.addObject(&sphere3);
+
+    Square square(Vector3(255, 0, 0));
+    scene.addObject(&square);
+
     //define the light sources in the scene
     LightSource lightSource(Vector3(0,0,0),Vector3(0.9,0.9,0.9),100);
     scene.addLightSource(lightSource);

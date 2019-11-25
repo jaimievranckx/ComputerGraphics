@@ -10,8 +10,11 @@
 
 
 class Square : public Object{
+public:
+
     double hit(const Ray& ray);
     Vector3 getNormal(const Vector3 point) const;
+    Square(Vector3 color);
 };
 
 
