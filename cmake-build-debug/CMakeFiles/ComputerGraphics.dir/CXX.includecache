@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/jaimi/Documents/ComputerGraphics/object.h
+vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
+ray.h
+C:/Users/jaimi/Documents/ComputerGraphics/ray.h
+
+C:/Users/jaimi/Documents/ComputerGraphics/ray.h
+vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
+
+C:/Users/jaimi/Documents/ComputerGraphics/square.cpp
+square.h
+C:/Users/jaimi/Documents/ComputerGraphics/square.h
+math.h
+C:/Users/jaimi/Documents/ComputerGraphics/math.h
+
+C:/Users/jaimi/Documents/ComputerGraphics/square.h
+vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
+ray.h
+C:/Users/jaimi/Documents/ComputerGraphics/ray.h
+object.h
+C:/Users/jaimi/Documents/ComputerGraphics/object.h
+
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
+
