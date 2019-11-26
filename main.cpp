@@ -32,6 +32,7 @@ void ReSizeGLScene(int width, int height)             // Resize And Initialize T
     glLoadIdentity();
     gluOrtho2D( 0.0, 500.0, 500.0,0.0 );                      // Reset The Modelview Matrix
 }
+
 Vector3 shade(Ray& ray,Object& object,double t){
     Vector3 hitpoint = ray.origin + ray.direction * t;
     Vector3 normal = object.getNormal(hitpoint);
@@ -39,14 +40,30 @@ Vector3 shade(Ray& ray,Object& object,double t){
     for(LightSource lightSource : scene.lightSources) {
         Vector3 pos = lightSource.position;
         Vector3 lightDir = hitpoint - pos;
-        lightDir.normalize();
-        float mDots = normal.dot(lightDir);
+        Vector3 minlightDIR = pos - hitpoint;
+        minlightDIR = minlightDIR.normalize();
+        Ray testray = Ray(hitpoint,minlightDIR);
+        bool shadow = false;
+        for (Object* objecttemp : scene.objects) {
+            if(objecttemp == &object){
 
-        if (mDots > 0) {
-            Vector3 diffuse = object.color * mDots * lightSource.color;
-            color = color + diffuse;
-
-        } else {
+            }else {
+                t = (*objecttemp).hit(testray);
+                if (t != -1&& t < abs(hitpoint.length())) {
+                    shadow = true;
+                }
+            }
+        }
+        if(!shadow) {
+            lightDir.normalize();
+            float mDots = normal.dot(lightDir);
+            if (mDots > 0) {
+                Vector3 diffuse = object.color * mDots * lightSource.color;
+                color = color + diffuse;
+            } else {
+                color = color + scene.backgroundColor;
+            }
+        }else{
             color = color + scene.backgroundColor;
         }
     }
@@ -71,7 +88,7 @@ void renderScene(void)
             Ray ray = Ray(ray_origin,ray_direction);
             for (Object* object : scene.objects) {
                 t=(*object).hit(ray);
-                if(t!=-1){
+                if(t!=-1 ){
                     if(min_t > t){
                         nearest_obj = object;
                         min_t = t;
@@ -85,6 +102,7 @@ void renderScene(void)
             }else{
                 //draw color of object
                 Vector3 color = shade(ray,*nearest_obj, min_t);
+                //Vector3 color = nearest_obj->color;
                 glColor3ub(color.x,color.y,color.z);
                 glVertex2i(i,j);
             }
@@ -112,13 +130,13 @@ int main(int argc, char **argv) {
     scene = Scene();
 
     //Define Camera
-    Camera camera = Camera(Vector3(0,0,-1000),width,height,180);
+    Camera camera = Camera(Vector3(0,0,-5),width,height,180);
     scene.setCamera(&camera);
 
     //define the object in the scene
     Sphere sphere(Vector3(50, 150, 50), Vector3(250, 0, 0),100);
     scene.addObject(&sphere);
-    Sphere sphere2(Vector3(150, 50, 50), Vector3(110, 0, 0),50);
+    Sphere sphere2(Vector3(150, 50, 50), Vector3(90, 0, 0),50);
     scene.addObject(&sphere2);
     Sphere sphere3(Vector3(50, 50, 150), Vector3(-250, 100, 0),150);
     scene.addObject(&sphere3);
@@ -127,7 +145,7 @@ int main(int argc, char **argv) {
     scene.addObject(&square);
 
     //define the light sources in the scene
-    LightSource lightSource(Vector3(0,0,0),Vector3(0.9,0.9,0.9),100);
+    LightSource lightSource(Vector3(0,0,0),Vector3(0.5,0.5,0.5),100);
     scene.addLightSource(lightSource);
     LightSource lightSource2(Vector3(-250,-250,0),Vector3(0.9,0.9,0.9),100);
     scene.addLightSource(lightSource2);

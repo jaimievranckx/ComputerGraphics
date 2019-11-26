@@ -45,6 +45,11 @@ bool Vector3::operator == (const Vector3& v)const {
     return (((*this)-v).length2()<0.1);
 }
 
+//Compare vectors
+bool Vector3::operator != (const Vector3& v)const {
+    return !(((*this)-v).length2()<0.1);
+}
+
 //Returns squared length of vector
 double Vector3::length() const {
     return sqrt(length2());
@@ -89,6 +94,10 @@ static int max(int val,int max) {
 }
 Vector3 Vector3::maxValue(int maximum) {
     return Vector3(max(x,maximum), max(y,maximum), max(z,maximum));
+}
+
+Vector3 Vector3::operator-() const {
+    return Vector3(-x,-y,-z);
 }
 
 

@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jaimi\Documents\ComputerGraphics
+CMAKE_SOURCE_DIR = C:\Users\jaimie\Documents\ComputerGraphics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ComputerGraphics.dir/depend.make
@@ -58,120 +58,120 @@ include CMakeFiles/ComputerGraphics.dir/flags.make
 
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: CMakeFiles/ComputerGraphics.dir/flags.make
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ComputerGraphics.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\main.cpp.obj -c C:\Users\jaimi\Documents\ComputerGraphics\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ComputerGraphics.dir/main.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\main.cpp.obj -c C:\Users\jaimie\Documents\ComputerGraphics\main.cpp
 
 CMakeFiles/ComputerGraphics.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerGraphics.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimi\Documents\ComputerGraphics\main.cpp > CMakeFiles\ComputerGraphics.dir\main.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimie\Documents\ComputerGraphics\main.cpp > CMakeFiles\ComputerGraphics.dir\main.cpp.i
 
 CMakeFiles/ComputerGraphics.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerGraphics.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimi\Documents\ComputerGraphics\main.cpp -o CMakeFiles\ComputerGraphics.dir\main.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimie\Documents\ComputerGraphics\main.cpp -o CMakeFiles\ComputerGraphics.dir\main.cpp.s
 
 CMakeFiles/ComputerGraphics.dir/scene.cpp.obj: CMakeFiles/ComputerGraphics.dir/flags.make
 CMakeFiles/ComputerGraphics.dir/scene.cpp.obj: ../scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ComputerGraphics.dir/scene.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\scene.cpp.obj -c C:\Users\jaimi\Documents\ComputerGraphics\scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ComputerGraphics.dir/scene.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\scene.cpp.obj -c C:\Users\jaimie\Documents\ComputerGraphics\scene.cpp
 
 CMakeFiles/ComputerGraphics.dir/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerGraphics.dir/scene.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimi\Documents\ComputerGraphics\scene.cpp > CMakeFiles\ComputerGraphics.dir\scene.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimie\Documents\ComputerGraphics\scene.cpp > CMakeFiles\ComputerGraphics.dir\scene.cpp.i
 
 CMakeFiles/ComputerGraphics.dir/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerGraphics.dir/scene.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimi\Documents\ComputerGraphics\scene.cpp -o CMakeFiles\ComputerGraphics.dir\scene.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimie\Documents\ComputerGraphics\scene.cpp -o CMakeFiles\ComputerGraphics.dir\scene.cpp.s
 
 CMakeFiles/ComputerGraphics.dir/object.cpp.obj: CMakeFiles/ComputerGraphics.dir/flags.make
 CMakeFiles/ComputerGraphics.dir/object.cpp.obj: ../object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ComputerGraphics.dir/object.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\object.cpp.obj -c C:\Users\jaimi\Documents\ComputerGraphics\object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ComputerGraphics.dir/object.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\object.cpp.obj -c C:\Users\jaimie\Documents\ComputerGraphics\object.cpp
 
 CMakeFiles/ComputerGraphics.dir/object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerGraphics.dir/object.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimi\Documents\ComputerGraphics\object.cpp > CMakeFiles\ComputerGraphics.dir\object.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimie\Documents\ComputerGraphics\object.cpp > CMakeFiles\ComputerGraphics.dir\object.cpp.i
 
 CMakeFiles/ComputerGraphics.dir/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerGraphics.dir/object.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimi\Documents\ComputerGraphics\object.cpp -o CMakeFiles\ComputerGraphics.dir\object.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimie\Documents\ComputerGraphics\object.cpp -o CMakeFiles\ComputerGraphics.dir\object.cpp.s
 
 CMakeFiles/ComputerGraphics.dir/sphere.cpp.obj: CMakeFiles/ComputerGraphics.dir/flags.make
 CMakeFiles/ComputerGraphics.dir/sphere.cpp.obj: ../sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ComputerGraphics.dir/sphere.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\sphere.cpp.obj -c C:\Users\jaimi\Documents\ComputerGraphics\sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ComputerGraphics.dir/sphere.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\sphere.cpp.obj -c C:\Users\jaimie\Documents\ComputerGraphics\sphere.cpp
 
 CMakeFiles/ComputerGraphics.dir/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerGraphics.dir/sphere.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimi\Documents\ComputerGraphics\sphere.cpp > CMakeFiles\ComputerGraphics.dir\sphere.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimie\Documents\ComputerGraphics\sphere.cpp > CMakeFiles\ComputerGraphics.dir\sphere.cpp.i
 
 CMakeFiles/ComputerGraphics.dir/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerGraphics.dir/sphere.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimi\Documents\ComputerGraphics\sphere.cpp -o CMakeFiles\ComputerGraphics.dir\sphere.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimie\Documents\ComputerGraphics\sphere.cpp -o CMakeFiles\ComputerGraphics.dir\sphere.cpp.s
 
 CMakeFiles/ComputerGraphics.dir/vector3.cpp.obj: CMakeFiles/ComputerGraphics.dir/flags.make
 CMakeFiles/ComputerGraphics.dir/vector3.cpp.obj: ../vector3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ComputerGraphics.dir/vector3.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\vector3.cpp.obj -c C:\Users\jaimi\Documents\ComputerGraphics\vector3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ComputerGraphics.dir/vector3.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\vector3.cpp.obj -c C:\Users\jaimie\Documents\ComputerGraphics\vector3.cpp
 
 CMakeFiles/ComputerGraphics.dir/vector3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerGraphics.dir/vector3.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimi\Documents\ComputerGraphics\vector3.cpp > CMakeFiles\ComputerGraphics.dir\vector3.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimie\Documents\ComputerGraphics\vector3.cpp > CMakeFiles\ComputerGraphics.dir\vector3.cpp.i
 
 CMakeFiles/ComputerGraphics.dir/vector3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerGraphics.dir/vector3.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimi\Documents\ComputerGraphics\vector3.cpp -o CMakeFiles\ComputerGraphics.dir\vector3.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimie\Documents\ComputerGraphics\vector3.cpp -o CMakeFiles\ComputerGraphics.dir\vector3.cpp.s
 
 CMakeFiles/ComputerGraphics.dir/ray.cpp.obj: CMakeFiles/ComputerGraphics.dir/flags.make
 CMakeFiles/ComputerGraphics.dir/ray.cpp.obj: ../ray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ComputerGraphics.dir/ray.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\ray.cpp.obj -c C:\Users\jaimi\Documents\ComputerGraphics\ray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ComputerGraphics.dir/ray.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\ray.cpp.obj -c C:\Users\jaimie\Documents\ComputerGraphics\ray.cpp
 
 CMakeFiles/ComputerGraphics.dir/ray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerGraphics.dir/ray.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimi\Documents\ComputerGraphics\ray.cpp > CMakeFiles\ComputerGraphics.dir\ray.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimie\Documents\ComputerGraphics\ray.cpp > CMakeFiles\ComputerGraphics.dir\ray.cpp.i
 
 CMakeFiles/ComputerGraphics.dir/ray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerGraphics.dir/ray.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimi\Documents\ComputerGraphics\ray.cpp -o CMakeFiles\ComputerGraphics.dir\ray.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimie\Documents\ComputerGraphics\ray.cpp -o CMakeFiles\ComputerGraphics.dir\ray.cpp.s
 
 CMakeFiles/ComputerGraphics.dir/lightSource.cpp.obj: CMakeFiles/ComputerGraphics.dir/flags.make
 CMakeFiles/ComputerGraphics.dir/lightSource.cpp.obj: ../lightSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ComputerGraphics.dir/lightSource.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\lightSource.cpp.obj -c C:\Users\jaimi\Documents\ComputerGraphics\lightSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ComputerGraphics.dir/lightSource.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\lightSource.cpp.obj -c C:\Users\jaimie\Documents\ComputerGraphics\lightSource.cpp
 
 CMakeFiles/ComputerGraphics.dir/lightSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerGraphics.dir/lightSource.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimi\Documents\ComputerGraphics\lightSource.cpp > CMakeFiles\ComputerGraphics.dir\lightSource.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimie\Documents\ComputerGraphics\lightSource.cpp > CMakeFiles\ComputerGraphics.dir\lightSource.cpp.i
 
 CMakeFiles/ComputerGraphics.dir/lightSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerGraphics.dir/lightSource.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimi\Documents\ComputerGraphics\lightSource.cpp -o CMakeFiles\ComputerGraphics.dir\lightSource.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimie\Documents\ComputerGraphics\lightSource.cpp -o CMakeFiles\ComputerGraphics.dir\lightSource.cpp.s
 
 CMakeFiles/ComputerGraphics.dir/camera.cpp.obj: CMakeFiles/ComputerGraphics.dir/flags.make
 CMakeFiles/ComputerGraphics.dir/camera.cpp.obj: ../camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ComputerGraphics.dir/camera.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\camera.cpp.obj -c C:\Users\jaimi\Documents\ComputerGraphics\camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ComputerGraphics.dir/camera.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\camera.cpp.obj -c C:\Users\jaimie\Documents\ComputerGraphics\camera.cpp
 
 CMakeFiles/ComputerGraphics.dir/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerGraphics.dir/camera.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimi\Documents\ComputerGraphics\camera.cpp > CMakeFiles\ComputerGraphics.dir\camera.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimie\Documents\ComputerGraphics\camera.cpp > CMakeFiles\ComputerGraphics.dir\camera.cpp.i
 
 CMakeFiles/ComputerGraphics.dir/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerGraphics.dir/camera.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimi\Documents\ComputerGraphics\camera.cpp -o CMakeFiles\ComputerGraphics.dir\camera.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimie\Documents\ComputerGraphics\camera.cpp -o CMakeFiles\ComputerGraphics.dir\camera.cpp.s
 
 CMakeFiles/ComputerGraphics.dir/square.cpp.obj: CMakeFiles/ComputerGraphics.dir/flags.make
 CMakeFiles/ComputerGraphics.dir/square.cpp.obj: ../square.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ComputerGraphics.dir/square.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\square.cpp.obj -c C:\Users\jaimi\Documents\ComputerGraphics\square.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ComputerGraphics.dir/square.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerGraphics.dir\square.cpp.obj -c C:\Users\jaimie\Documents\ComputerGraphics\square.cpp
 
 CMakeFiles/ComputerGraphics.dir/square.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerGraphics.dir/square.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimi\Documents\ComputerGraphics\square.cpp > CMakeFiles\ComputerGraphics.dir\square.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jaimie\Documents\ComputerGraphics\square.cpp > CMakeFiles\ComputerGraphics.dir\square.cpp.i
 
 CMakeFiles/ComputerGraphics.dir/square.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerGraphics.dir/square.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimi\Documents\ComputerGraphics\square.cpp -o CMakeFiles\ComputerGraphics.dir\square.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jaimie\Documents\ComputerGraphics\square.cpp -o CMakeFiles\ComputerGraphics.dir\square.cpp.s
 
 # Object files for target ComputerGraphics
 ComputerGraphics_OBJECTS = \
@@ -201,7 +201,7 @@ ComputerGraphics.exe: CMakeFiles/ComputerGraphics.dir/build.make
 ComputerGraphics.exe: CMakeFiles/ComputerGraphics.dir/linklibs.rsp
 ComputerGraphics.exe: CMakeFiles/ComputerGraphics.dir/objects1.rsp
 ComputerGraphics.exe: CMakeFiles/ComputerGraphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ComputerGraphics.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ComputerGraphics.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ComputerGraphics.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -214,6 +214,6 @@ CMakeFiles/ComputerGraphics.dir/clean:
 .PHONY : CMakeFiles/ComputerGraphics.dir/clean
 
 CMakeFiles/ComputerGraphics.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\jaimi\Documents\ComputerGraphics C:\Users\jaimi\Documents\ComputerGraphics C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles\ComputerGraphics.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\jaimie\Documents\ComputerGraphics C:\Users\jaimie\Documents\ComputerGraphics C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles\ComputerGraphics.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ComputerGraphics.dir/depend
 

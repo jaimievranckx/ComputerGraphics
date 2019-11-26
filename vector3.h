@@ -24,8 +24,11 @@ public:
     Vector3 operator * (const double&) const;
     Vector3 operator * (const Vector3&) const;
     Vector3 operator - (const Vector3&) const;
+    Vector3 operator - () const;
     Vector3 operator + (const Vector3&) const;
     bool operator == (const Vector3&)const;
+    bool operator != (const Vector3&)const;
+
     Vector3 maxValue(int max);
     double length() const;
     double length2() const;

@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug"/>
+				<Option working_dir="C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug"/>
+				<Option working_dir="C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ComputerGraphics">
-				<Option output="C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/ComputerGraphics.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug"/>
+				<Option output="C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/ComputerGraphics.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -42,15 +42,15 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComputerGraphics"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComputerGraphics"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ComputerGraphics/fast">
-				<Option output="C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/ComputerGraphics.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug"/>
+				<Option output="C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/ComputerGraphics.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,75 +63,75 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComputerGraphics/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComputerGraphics/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug"/>
+				<Option working_dir="C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimi/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jaimie/Documents/ComputerGraphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/camera.cpp">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/camera.cpp">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/camera.h">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/camera.h">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/lightSource.cpp">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/lightSource.cpp">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/lightSource.h">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/lightSource.h">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/main.cpp">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/main.cpp">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/object.cpp">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/object.cpp">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/object.h">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/object.h">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/ray.cpp">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/ray.cpp">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/ray.h">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/ray.h">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/scene.cpp">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/scene.cpp">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/scene.h">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/scene.h">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/sphere.cpp">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/sphere.cpp">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/sphere.h">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/sphere.h">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/square.cpp">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/square.cpp">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/square.h">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/square.h">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/vector3.cpp">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/vector3.cpp">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/vector3.h">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/vector3.h">
 			<Option target="ComputerGraphics"/>
 		</Unit>
-		<Unit filename="C:/Users/jaimi/Documents/ComputerGraphics/CMakeLists.txt">
+		<Unit filename="C:/Users/jaimie/Documents/ComputerGraphics/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
