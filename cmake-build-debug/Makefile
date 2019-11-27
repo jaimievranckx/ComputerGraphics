@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jaimie\Documents\ComputerGraphics
+CMAKE_SOURCE_DIR = C:\Users\jaimi\Documents\ComputerGraphics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jaimie\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jaimi\Documents\ComputerGraphics\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -202,6 +202,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles\ComputerGraphics.dir\build.make CMakeFiles/ComputerGraphics.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matrix.obj: matrix.cpp.obj
+
+.PHONY : matrix.obj
+
+# target to build an object file
+matrix.cpp.obj:
+	$(MAKE) -f CMakeFiles\ComputerGraphics.dir\build.make CMakeFiles/ComputerGraphics.dir/matrix.cpp.obj
+.PHONY : matrix.cpp.obj
+
+matrix.i: matrix.cpp.i
+
+.PHONY : matrix.i
+
+# target to preprocess a source file
+matrix.cpp.i:
+	$(MAKE) -f CMakeFiles\ComputerGraphics.dir\build.make CMakeFiles/ComputerGraphics.dir/matrix.cpp.i
+.PHONY : matrix.cpp.i
+
+matrix.s: matrix.cpp.s
+
+.PHONY : matrix.s
+
+# target to generate assembly for a file
+matrix.cpp.s:
+	$(MAKE) -f CMakeFiles\ComputerGraphics.dir\build.make CMakeFiles/ComputerGraphics.dir/matrix.cpp.s
+.PHONY : matrix.cpp.s
 
 object.obj: object.cpp.obj
 
@@ -338,6 +365,33 @@ square.cpp.s:
 	$(MAKE) -f CMakeFiles\ComputerGraphics.dir\build.make CMakeFiles/ComputerGraphics.dir/square.cpp.s
 .PHONY : square.cpp.s
 
+triangle.obj: triangle.cpp.obj
+
+.PHONY : triangle.obj
+
+# target to build an object file
+triangle.cpp.obj:
+	$(MAKE) -f CMakeFiles\ComputerGraphics.dir\build.make CMakeFiles/ComputerGraphics.dir/triangle.cpp.obj
+.PHONY : triangle.cpp.obj
+
+triangle.i: triangle.cpp.i
+
+.PHONY : triangle.i
+
+# target to preprocess a source file
+triangle.cpp.i:
+	$(MAKE) -f CMakeFiles\ComputerGraphics.dir\build.make CMakeFiles/ComputerGraphics.dir/triangle.cpp.i
+.PHONY : triangle.cpp.i
+
+triangle.s: triangle.cpp.s
+
+.PHONY : triangle.s
+
+# target to generate assembly for a file
+triangle.cpp.s:
+	$(MAKE) -f CMakeFiles\ComputerGraphics.dir\build.make CMakeFiles/ComputerGraphics.dir/triangle.cpp.s
+.PHONY : triangle.cpp.s
+
 vector3.obj: vector3.cpp.obj
 
 .PHONY : vector3.obj
@@ -383,6 +437,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... matrix.obj
+	@echo ... matrix.i
+	@echo ... matrix.s
 	@echo ... object.obj
 	@echo ... object.i
 	@echo ... object.s
@@ -398,6 +455,9 @@ help:
 	@echo ... square.obj
 	@echo ... square.i
 	@echo ... square.s
+	@echo ... triangle.obj
+	@echo ... triangle.i
+	@echo ... triangle.s
 	@echo ... vector3.obj
 	@echo ... vector3.i
 	@echo ... vector3.s

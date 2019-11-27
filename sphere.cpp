@@ -8,17 +8,19 @@
 #include <iostream>
 
 using namespace std;
-Sphere::Sphere(Vector3 color, Vector3 center, double radius) : Object(color) {
-    this->center = center;
-    this->radius = radius;
+Sphere::Sphere(Vector3 color) : Object(color) {
 }
 
 //returns all times of intersection of a ray with this sphere object
 double Sphere::hit(const Ray &ray) {
+
+    Vector3 genRayOrigin = this->inverseTransformMatrix.transform(ray.origin, 1);
+    Vector3 genRayDirection =  this->inverseTransformMatrix.transform(ray.direction, 0);
+
     double a, b, c;
-    a = ray.direction.length2();
-    b = 2 * ray.direction.dot(ray.origin - center);
-    c = (ray.origin - center).length2() - radius*radius;
+    a = genRayDirection.length2();
+    b = 2 * genRayDirection.dot(genRayOrigin - Vector3(0,0,0));
+    c = (genRayOrigin - Vector3(0,0,0)).length2() - 1;
     double d = b*b - 4*a*c;
     if (d < 0 ) { //ray misses
         return -1; // no intersectionpoints
@@ -45,8 +47,10 @@ double Sphere::hit(const Ray &ray) {
 }
 
 Vector3 Sphere::getNormal(const Vector3 point) const{
+
     Vector3 newPoint = Vector3(point.x,point.y,point.z);
-    Vector3 vector = (( newPoint- center)*(-1/radius)).normalize();
+    newPoint = inverseTransformMatrix.transform(newPoint,1);
+    Vector3 vector = transposedTransformMatrix.transform((-newPoint).normalize(), 0).normalize();
     return vector;
 
 }

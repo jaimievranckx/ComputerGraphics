@@ -12,13 +12,20 @@ CMakeFiles/ComputerGraphics.dir/lightSource.cpp.obj: ../vector3.h
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../camera.h
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../lightSource.h
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../matrix.h
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../object.h
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../ray.h
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../scene.h
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../sphere.h
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../square.h
+CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../triangle.h
 CMakeFiles/ComputerGraphics.dir/main.cpp.obj: ../vector3.h
 
+CMakeFiles/ComputerGraphics.dir/matrix.cpp.obj: ../matrix.cpp
+CMakeFiles/ComputerGraphics.dir/matrix.cpp.obj: ../matrix.h
+CMakeFiles/ComputerGraphics.dir/matrix.cpp.obj: ../vector3.h
+
+CMakeFiles/ComputerGraphics.dir/object.cpp.obj: ../matrix.h
 CMakeFiles/ComputerGraphics.dir/object.cpp.obj: ../object.cpp
 CMakeFiles/ComputerGraphics.dir/object.cpp.obj: ../object.h
 CMakeFiles/ComputerGraphics.dir/object.cpp.obj: ../ray.h
@@ -30,23 +37,34 @@ CMakeFiles/ComputerGraphics.dir/ray.cpp.obj: ../vector3.h
 
 CMakeFiles/ComputerGraphics.dir/scene.cpp.obj: ../camera.h
 CMakeFiles/ComputerGraphics.dir/scene.cpp.obj: ../lightSource.h
+CMakeFiles/ComputerGraphics.dir/scene.cpp.obj: ../matrix.h
 CMakeFiles/ComputerGraphics.dir/scene.cpp.obj: ../object.h
 CMakeFiles/ComputerGraphics.dir/scene.cpp.obj: ../ray.h
 CMakeFiles/ComputerGraphics.dir/scene.cpp.obj: ../scene.cpp
 CMakeFiles/ComputerGraphics.dir/scene.cpp.obj: ../scene.h
 CMakeFiles/ComputerGraphics.dir/scene.cpp.obj: ../vector3.h
 
+CMakeFiles/ComputerGraphics.dir/sphere.cpp.obj: ../matrix.h
 CMakeFiles/ComputerGraphics.dir/sphere.cpp.obj: ../object.h
 CMakeFiles/ComputerGraphics.dir/sphere.cpp.obj: ../ray.h
 CMakeFiles/ComputerGraphics.dir/sphere.cpp.obj: ../sphere.cpp
 CMakeFiles/ComputerGraphics.dir/sphere.cpp.obj: ../sphere.h
 CMakeFiles/ComputerGraphics.dir/sphere.cpp.obj: ../vector3.h
 
+CMakeFiles/ComputerGraphics.dir/square.cpp.obj: ../matrix.h
 CMakeFiles/ComputerGraphics.dir/square.cpp.obj: ../object.h
 CMakeFiles/ComputerGraphics.dir/square.cpp.obj: ../ray.h
 CMakeFiles/ComputerGraphics.dir/square.cpp.obj: ../square.cpp
 CMakeFiles/ComputerGraphics.dir/square.cpp.obj: ../square.h
+CMakeFiles/ComputerGraphics.dir/square.cpp.obj: ../triangle.h
 CMakeFiles/ComputerGraphics.dir/square.cpp.obj: ../vector3.h
+
+CMakeFiles/ComputerGraphics.dir/triangle.cpp.obj: ../matrix.h
+CMakeFiles/ComputerGraphics.dir/triangle.cpp.obj: ../object.h
+CMakeFiles/ComputerGraphics.dir/triangle.cpp.obj: ../ray.h
+CMakeFiles/ComputerGraphics.dir/triangle.cpp.obj: ../triangle.cpp
+CMakeFiles/ComputerGraphics.dir/triangle.cpp.obj: ../triangle.h
+CMakeFiles/ComputerGraphics.dir/triangle.cpp.obj: ../vector3.h
 
 CMakeFiles/ComputerGraphics.dir/vector3.cpp.obj: ../vector3.cpp
 CMakeFiles/ComputerGraphics.dir/vector3.cpp.obj: ../vector3.h

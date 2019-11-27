@@ -7,14 +7,22 @@
 #include "vector3.h"
 #include "ray.h"
 #include "object.h"
+#include "triangle.h"
 
 
 class Square : public Object{
 public:
+    Square(Vector3 color);
 
+    Triangle triangle0;
+    Triangle triangle1;
+    void scale(Vector3 scale);
+    void translate(Vector3 translate);
     double hit(const Ray& ray);
     Vector3 getNormal(const Vector3 point) const;
-    Square(Vector3 color);
+    void rotateX(double angle);
+    void rotateY(double angle);
+    void rotateZ(double angle);
 };
 
 

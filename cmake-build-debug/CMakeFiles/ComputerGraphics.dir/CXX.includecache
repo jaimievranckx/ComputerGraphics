@@ -6,23 +6,25 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/jaimie/Documents/ComputerGraphics/camera.h
+C:/Users/jaimi/Documents/ComputerGraphics/camera.h
 vector3.h
-C:/Users/jaimie/Documents/ComputerGraphics/vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
 
-C:/Users/jaimie/Documents/ComputerGraphics/lightSource.h
+C:/Users/jaimi/Documents/ComputerGraphics/lightSource.h
 vector3.h
-C:/Users/jaimie/Documents/ComputerGraphics/vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
 
-C:/Users/jaimie/Documents/ComputerGraphics/main.cpp
+C:/Users/jaimi/Documents/ComputerGraphics/main.cpp
 iostream
 -
 scene.h
-C:/Users/jaimie/Documents/ComputerGraphics/scene.h
+C:/Users/jaimi/Documents/ComputerGraphics/scene.h
 sphere.h
-C:/Users/jaimie/Documents/ComputerGraphics/sphere.h
+C:/Users/jaimi/Documents/ComputerGraphics/sphere.h
 square.h
-C:/Users/jaimie/Documents/ComputerGraphics/square.h
+C:/Users/jaimi/Documents/ComputerGraphics/square.h
+triangle.h
+C:/Users/jaimi/Documents/ComputerGraphics/triangle.h
 cmath
 -
 vector
@@ -40,41 +42,59 @@ GL/glext.h
 cfloat
 -
 
-C:/Users/jaimie/Documents/ComputerGraphics/object.h
+C:/Users/jaimi/Documents/ComputerGraphics/matrix.h
+iostream
+-
+vector
+-
 vector3.h
-C:/Users/jaimie/Documents/ComputerGraphics/vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
+
+C:/Users/jaimi/Documents/ComputerGraphics/object.h
+vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
 ray.h
-C:/Users/jaimie/Documents/ComputerGraphics/ray.h
+C:/Users/jaimi/Documents/ComputerGraphics/ray.h
+matrix.h
+C:/Users/jaimi/Documents/ComputerGraphics/matrix.h
 
-C:/Users/jaimie/Documents/ComputerGraphics/ray.h
+C:/Users/jaimi/Documents/ComputerGraphics/ray.h
 vector3.h
-C:/Users/jaimie/Documents/ComputerGraphics/vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
 
-C:/Users/jaimie/Documents/ComputerGraphics/scene.h
+C:/Users/jaimi/Documents/ComputerGraphics/scene.h
 lightSource.h
-C:/Users/jaimie/Documents/ComputerGraphics/lightSource.h
+C:/Users/jaimi/Documents/ComputerGraphics/lightSource.h
 list
 -
 object.h
-C:/Users/jaimie/Documents/ComputerGraphics/object.h
+C:/Users/jaimi/Documents/ComputerGraphics/object.h
 camera.h
-C:/Users/jaimie/Documents/ComputerGraphics/camera.h
+C:/Users/jaimi/Documents/ComputerGraphics/camera.h
 
-C:/Users/jaimie/Documents/ComputerGraphics/sphere.h
+C:/Users/jaimi/Documents/ComputerGraphics/sphere.h
 vector3.h
-C:/Users/jaimie/Documents/ComputerGraphics/vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
 ray.h
-C:/Users/jaimie/Documents/ComputerGraphics/ray.h
+C:/Users/jaimi/Documents/ComputerGraphics/ray.h
 object.h
-C:/Users/jaimie/Documents/ComputerGraphics/object.h
+C:/Users/jaimi/Documents/ComputerGraphics/object.h
 
-C:/Users/jaimie/Documents/ComputerGraphics/square.h
+C:/Users/jaimi/Documents/ComputerGraphics/square.h
 vector3.h
-C:/Users/jaimie/Documents/ComputerGraphics/vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
 ray.h
-C:/Users/jaimie/Documents/ComputerGraphics/ray.h
+C:/Users/jaimi/Documents/ComputerGraphics/ray.h
 object.h
-C:/Users/jaimie/Documents/ComputerGraphics/object.h
+C:/Users/jaimi/Documents/ComputerGraphics/object.h
+triangle.h
+C:/Users/jaimi/Documents/ComputerGraphics/triangle.h
 
-C:/Users/jaimie/Documents/ComputerGraphics/vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/triangle.h
+vector3.h
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
+object.h
+C:/Users/jaimi/Documents/ComputerGraphics/object.h
+
+C:/Users/jaimi/Documents/ComputerGraphics/vector3.h
 

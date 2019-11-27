@@ -11,14 +11,12 @@
 #include "object.h"
 
 class Sphere : public Object {
-    Vector3 center;
-    double radius;
 
     double hit(const Ray& ray);
     Vector3 getNormal(const Vector3 point) const;
 
 public:
-    Sphere(Vector3 color, Vector3 center, double radius);
+    Sphere(Vector3 color);
 };
 
 
